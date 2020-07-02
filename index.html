@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>�ҵĵ�һ������</title>
+  <title>hello</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="�ҵĵ�һ������">
+<meta property="og:title" content="hello">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="�ҵĵ�һ������">
+<meta property="og:site_name" content="hello">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="yhm">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="�ҵĵ�һ������" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="hello" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -159,13 +159,13 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/28/this%E5%85%B3%E9%94%AE%E5%AD%97/">this关键字</a>
+      <a class="article-title" href="/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/">this关键字</a>
     </h1>
   
 
         
-        <a href="/2020/06/28/this%E5%85%B3%E9%94%AE%E5%AD%97/" class="archive-article-date">
-  	<time datetime="2020-06-28T05:09:06.997Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-28</time>
+        <a href="/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/" class="archive-article-date">
+  	<time datetime="2020-07-02T00:30:12.452Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-02</time>
 </a>
         
       </header>
@@ -176,8 +176,7 @@
 <p>1.当前类中的属性：this.属性；</p>
 <p>2.当前类中的方法（普通方法，构造方法）：this(),this.方法名称（）；</p>
 <p>3.描述当前对象：</p>
-<p><strong>this调用本类成员属性：</strong></p>
-<p>在一个类中定义的许多的成员属性都可以互相进行调用，例如：某一个属性可能在构造方法中被调用，那么也可能在普通方法中调用，只要是在一个类中，那么就都可以实现这样的处理。</p>
+<p><strong>this调用本类成员属性：</strong>在一个类中定义的许多的成员属性都可以互相进行调用，例如：某一个属性可能在构造方法中被调用，那么也可能在普通方法中调用，只要是在一个类中，那么就都可以实现这样的处理。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Book</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="keyword">private</span> String title;</span><br><span class="line">	<span class="keyword">private</span> String author;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> price;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">(String title,String author,<span class="keyword">double</span> price)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.title = title;</span><br><span class="line">		<span class="keyword">this</span>.author = author;</span><br><span class="line">		<span class="keyword">this</span>.price = price;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> String.format(<span class="string">"书的名字+%s+书的作者+%s+书的价格+%d"</span>,title,author,price);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">JavaDemo</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		Book book = <span class="keyword">new</span> Book();</span><br><span class="line">		System.out.println(book);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>以上的程序代码是之前经常编写过的程序逻辑，但是对于当前的程序代码里面有一处的设计是非常不合理的，这一处指的是类中定义的构造方法，来观察一下构造方法的定义。这个时候的构造方法里面需要传递三个参数，并且这三个参数的名称使用了单个字母描述，那么请问，如果按照正常的标识符的定义要求，这样的标识符虽然符合语法意义，但是不符合实际的“明确要求”。</p>
@@ -191,6 +190,28 @@
 <li>整个教室的环境又局限于写字楼的环境</li>
 <li>写字楼的环境又局限于地球的上下文环境</li>
 </ul>
+<p>但是现在肯定不希望这么进行处理，最佳的做法还是通过正确的模式为对象中的成员属性进行赋值处理，所以此时就必须明确的表示当前要调用的为本类属性，这个时候为了和参数名称有所区分，最佳的做法是使用“this.属性”来进行调用。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Book</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> String author;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> price;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">(String name,String author,<span class="keyword">double</span> price)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.author = author;</span><br><span class="line">        <span class="keyword">this</span>.price = price;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"名字"</span>+<span class="keyword">this</span>.name+<span class="string">"作者"</span>+<span class="keyword">this</span>.author+<span class="string">"价格"</span>+<span class="keyword">this</span>.price;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Book book = <span class="keyword">new</span> Book(<span class="string">"ma"</span>,<span class="string">"myh"</span>,<span class="number">13</span>);</span><br><span class="line">        System.out.println(book);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在以后编写代码的过程之中，只要访问本类中的成员属性，一定要采用  this.属性 进行明确的指派。</p>
+<p><strong>this调用普通方法</strong></p>
+<p>在一个类中往往会存在有大量的普通方法，这些普通方法每当获取了该类的实例化对象之后，那么都可以直接进行调用，而如果要在本类中进行方法调用，理论上直接使用方法名称即可，但是也可以使用“this.方法（）”的形式进行更加明确的调用（两者效果相同，而后者编写形式更好）。</p>
+<p><strong>构造方法互相调用</strong></p>
+<p>一个类中的构造方法是允许进行重载的，在进行构造方法重载的过程之中只需要考虑方法的参数类型即个数即可，所以一个类中构造方法可能有很多，那么这样的环境下就可以利用“this()”的形式实现构造方法的互相调用，这样互相调用的机制也仅仅使用一次（构造方法只能够使用一次，是在新对象开辟内存空间的时候使用）。</p>
+<p>既然所有的对象进行实例化的时候都一定会进行构造方法的调用，那么假设说现在类中存在有三个构造方法，分别描述 无参构造，单参构造，三参构造，那么这个时候不管是调用了哪一个构造方法，都可能执行某些操作（输出一些重要的信息），那么按照原始的做法代码可能定义为如下的形式：</p>
+<p>只要是新对象的创建，则一定要进行构造方法的调用。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Book</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> String author;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> price;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>(<span class="keyword">null</span>,<span class="keyword">null</span>,<span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">(String name)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>(name,<span class="keyword">null</span>,<span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">(String name,String author)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>(name,author,<span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Book</span><span class="params">(String name,String author,<span class="keyword">double</span> price)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.author = author;</span><br><span class="line">        <span class="keyword">this</span>.price = price;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Book book = <span class="keyword">new</span> Book(<span class="string">"ma"</span>);</span><br><span class="line">        System.out.println(book);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>此时利用了“this()”的语法形式实现了类中不同构造方法的互相调用，并且通过具体的操作实现也可以发现，这种操作的确是比方法抽象更加抽象对象效果，但是对于当前的这种语法也需要考虑如下的几个问题：</p>
+<ol>
+<li>使用”this()”调用构造方法的时候必须方法构造方法的首行</li>
+<li>使用构造方法互相调用的时候一定要保留有出口，否则在程序编译的时候会直接出现递归错误的信息。</li>
+</ol>
+<p>构造方法的主要作用是进行成员初始化操作，但是在成员属性初始化过程之中难免会存在有重复的初始化的操作代码，所以这个时候利用构造方法来解决是最合理的一种做法。</p>
+<p><strong>this表示当前对象</strong></p>
+<p>经过了之前一系列分析可以发现，对于this有一个最为常见的调用类结构的操作形式：“this.成员属性”，“this.方法（）”，根据在之前所学的概念来讲，类中的属性或方法可以调用的只能够是实例化对象（如果使用了没有实例化对象，则一定会出现“null pointer Exception”）所以之前的语法之中的this本质上描述的就是一个对象，但是这个对象不是一个固定的对象，而是描述的当前对象的概念。</p>
+<p>如果要想观察出程序里面当前对象，最简单的方法就是直接进行this关键字的输出。Java中的类属于引用数据类型，引用数据类型需要要考虑堆栈的引用关系，默认情况下每一个实例化对象的输出应该得到的就是一个对象的编码，而这种编码的格式为“类名称@地址名称”（这个是由Java内部默认决定的程序结构）。</p>
+<p>this是一个可以被灵活改变的内容，它会随着当前调用的实例化对象的不同而有所不同，那么在之前分析过的“this.方法（）”或者“this.成员属性”，严格意义上来讲它所描述的就是当前调用的实例化对象的方法或者是属性。</p>
 
       
 
@@ -203,7 +224,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/28/this%E5%85%B3%E9%94%AE%E5%AD%97/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/">展开全文 >></a>
         </p>
       
 

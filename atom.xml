@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>宇航员的博客</title>
+  <icon>http://yoursite.com/icon.png</icon>
+  <subtitle>非淡泊无以明志，非宁静无以致远</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-07-02T05:12:06.942Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>yhm</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>static关键字</title>
+    <link href="http://yoursite.com/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    <id>http://yoursite.com/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/</id>
+    <published>2020-07-02T05:07:15.000Z</published>
+    <updated>2020-07-02T05:12:06.942Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>this关键字</title>
+    <link href="http://yoursite.com/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    <id>http://yoursite.com/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/</id>
+    <published>2020-07-02T00:30:12.452Z</published>
+    <updated>2020-07-01T06:12:47.707Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>

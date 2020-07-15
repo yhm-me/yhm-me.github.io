@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>static关键字</title>
-    <url>/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <title>this关键字</title>
+    <url>/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/</url>
     <content><![CDATA[<h3 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h3><p>this实现以下三类结构的描述：    </p>
 <p>1.当前类中的属性：this.属性；</p>
 <p>2.当前类中的方法（普通方法，构造方法）：this(),this.方法名称（）；</p>
@@ -46,8 +46,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>this关键字</title>
-    <url>/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <title>static关键字</title>
+    <url>/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/</url>
     <content><![CDATA[<h3 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h3><p>this实现以下三类结构的描述：    </p>
 <p>1.当前类中的属性：this.属性；</p>
 <p>2.当前类中的方法（普通方法，构造方法）：this(),this.方法名称（）；</p>

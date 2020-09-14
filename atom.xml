@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-02T05:12:06.942Z</updated>
+  <updated>2020-09-14T19:59:02.216Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://yoursite.com/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     <id>http://yoursite.com/2020/07/02/static%E5%85%B3%E9%94%AE%E5%AD%97/</id>
     <published>2020-07-02T05:07:15.000Z</published>
-    <updated>2020-07-02T05:12:06.942Z</updated>
+    <updated>2020-09-14T19:59:02.216Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：   
-        
-      
+      &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：    &lt;/p&gt;
+&lt;p&gt;1.当前类中的属性：this.属性；&lt;/p&gt;
+&lt;p&gt;2.当前类中的方法（普通方法，构造方法）：this(),this.方法名称（）；&lt;/p&gt;
+&lt;p&gt;3.描述当前对象：&lt;/p&gt;
     
     </summary>
     
@@ -44,17 +41,14 @@
     <link href="http://yoursite.com/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     <id>http://yoursite.com/2020/07/02/this%E5%85%B3%E9%94%AE%E5%AD%97/</id>
     <published>2020-07-02T00:30:12.452Z</published>
-    <updated>2020-07-01T06:12:47.707Z</updated>
+    <updated>2020-09-14T19:58:26.250Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：   
-        
-      
+      &lt;h3 id=&quot;this关键字&quot;&gt;&lt;a href=&quot;#this关键字&quot; class=&quot;headerlink&quot; title=&quot;this关键字&quot;&gt;&lt;/a&gt;this关键字&lt;/h3&gt;&lt;p&gt;this实现以下三类结构的描述：    &lt;/p&gt;
+&lt;p&gt;1.当前类中的属性：this.属性；&lt;/p&gt;
+&lt;p&gt;2.当前类中的方法（普通方法，构造方法）：this(),this.方法名称（）；&lt;/p&gt;
+&lt;p&gt;3.描述当前对象：&lt;/p&gt;
     
     </summary>
     
